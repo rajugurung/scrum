@@ -1,6 +1,8 @@
-<div>
+<div class="list-group">
     @for (scrummer of scrummers; track $index) {
-        <div>{{scrummer.firstName}} {{scrummer.lastName}}</div>
+        <a href="#" class="list-group-item list-group-item-action">
+            {{scrummer.firstName}} {{scrummer.lastName}}
+          </a>
     }
     
 </div>
